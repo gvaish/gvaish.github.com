@@ -1,32 +1,114 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Gaurav Vaish a.k.a. MasterGaurav</title>
-		<style>
-			body {
-				font-family: Verdana;
-				font-size: 14px;
-			}
-
-			div {
-				line-height: 1.5em;
-			}
-		</style>
-	</head>
-	<body>
-		<div>
-			<img src="https://secure.gravatar.com/avatar/d77369faf27281bc34b7d350c9954ef5?size=400" height="160" width="160"/>
-		</div>
-		<div>
-		Gaurav's page at <a href='http://www.mastergaurav.com'>www.mastergaurav.com</a> and <a href='http://www.m10v.com'>www.m10v.com</a>!
-		</div>
-		<div>
-		Dynamic Layout Loader for Android at <a href='https://github.com/gvaish/android-dynamic-layouts'>github.com/gvaish/android-dynamic-layouts</a>
-		</div>
-		<div>
-		GAE Utilities at <a href='http://gvaish.github.com/gae-utils'>gvaish.github.com/gae-utils</a>
-		</div>
-		<div>
-		MVC Framework for Android (Android-MVC) at <a href='http://github.com/gvaish/Android-MVC'>github.com/gvaish/Android-MVC</a>
-		</div>
-	</body>
+<head>
+  <title>Gaurav Vaish | Applied AI • Google, Facebook, Yahoo, Adobe • Author</title>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6M6GDQHDPX"></script>
+  <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+  <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6M6GDQHDPX');
+  </script>
+  <style>
+  	body {
+  	  font-family: Helvetica;
+  	  display: flex;
+  	  min-height: 100vh;
+  	  background-color: #000;
+  	}
+	.list {
+	  position: relative;
+	}
+	.list h2 {
+	  color: #fff;
+	  font-weight: 700;
+	  letter-spacing: 1px;
+	  margin-bottom: 5px;
+	}
+	.list h4 {
+	  color: #fff;
+	  font-weight: 400;
+	  letter-spacing: 1px;
+	  margin-bottom: 10px;
+	}
+	.list ul {
+	  position: relative;
+	}
+	.list ul li {
+	  position: relative;
+	  left: 0;
+	  color: #cce4fc;
+	  list-style: none;
+	  margin: 4px 0;
+	  border-left: 2px solid #f50057;
+	  transition: 0.5s;
+	  cursor: pointer;
+	}
+	.list ul li:hover {
+	  left: 5px;
+	}
+	.list ul li span {
+	  position: relative;
+	  padding: 8px;
+	  padding-left: 12px;
+	  display: inline-block;
+	  z-index: 1;
+	  transition: 0.5s;
+	}
+	.list ul li:hover span {
+	  color: #fff;
+	}
+	.list ul li:before {
+	  content: "";
+	  position: absolute;
+	  width: 100%;
+	  height: 100%;
+	  transform: scaleX(0);
+	  transform-origin: left;
+	  transition: 0.1s;
+	}
+	.list ul li:hover:before {
+	  transform: scaleX(1);
+	}
+	a, a:visited {
+	  color: #cce4fc;
+	  text-decoration: none;
+	}
+	a:hover, a:active {
+	  color: #cce4fc;
+	  text-decoration: underline;
+	}
+  </style>
+</head>
+<body style="max-width: 800px; margin: 20px auto; border: 1px solid;">
+  <div style='line-height: 2.2em'>&nbsp;</div>
+  <div class="list">
+  	<h2>Gaurav Vaish</h2>
+  	<h4>Applied AI • Google, Facebook, Yahoo, Adobe • Author</h4>
+  	<ul>
+  	  <li><span><a href="https://www.linkedin.com/in/gvaish" target="gvaish_linkedin">LinkedIn</a></span></li>
+  	  <li><span><a href="https://groups.google.com/g/google-rei" target="gvaish_google_rei">Googler RE Investment</a></span></li>
+  	  <li><span><a href="https://x.com/mastergaurav" target="gvaish_x">X</a></span></li>
+  	  <li><span>EMail: 𝑔𝒶𝓊𝓇𝒶𝓋.𝓋𝒶𝒾𝓈𝒽@𝕘𝕞𝕒𝕚𝕝.𝕔𝕠𝕞</span></li>
+  	  <li><span><!-- Google Calendar Appointment Scheduling begin -->
+		<script>
+		(function() {
+		  var target = document.currentScript;
+		  window.addEventListener('load', function() {
+		    calendar.schedulingButton.load({
+		      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1D3CCW7MMvV0kA4geU3394uawZKfOS6oVaDoBm8ahxRUHuTEhiU70IobUqSrOX-Hvo91QFo7S5?gv=true',
+		      color: '#039BE5',
+		      label: 'Book an appointment',
+		      target,
+		    });
+		  });
+		})();
+		</script>
+      </span></li>
+  	</ul>
+  </div>
+</body>
 </html>
